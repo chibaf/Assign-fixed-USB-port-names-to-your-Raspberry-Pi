@@ -2,7 +2,7 @@
 Assign fixed USB port names to your Raspberry Pi
 
 
-# References
+## References
 
 Assign fixed USB port names to your Raspberry Pi • freva.com
 
