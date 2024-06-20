@@ -22,6 +22,13 @@ pi@RasPi4B32BIT:~ $ ls /dev/*USB*
 ls: cannot access '/dev/*USB*': No such file or directory
 </pre>
 
+<pre>
+ pi@RasPi4B32BIT:~ $ dmesg | grep ttyACM
+[    6.408344] cdc_acm 1-1.3.2:1.0: ttyACM0: USB ACM device
+[    6.429443] cdc_acm 1-1.3.3:1.0: ttyACM1: USB ACM device
+[  175.772307] cdc_acm 1-1.3.4:1.0: ttyACM2: USB ACM device
+</pre>
+
 ## References
 
 Assign fixed USB port names to your Raspberry Pi • freva.com
