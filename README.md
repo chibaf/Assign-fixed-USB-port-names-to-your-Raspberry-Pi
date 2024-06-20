@@ -12,6 +12,11 @@ Bus 001 Device 002: ID 2109:3431 VIA Labs, Inc. Hub
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 </pre>
 
+<pre>
+pi@RasPi4B32BIT:~ $ ls /dev/ttyACM?
+/dev/ttyACM0  /dev/ttyACM1  /dev/ttyACM2
+</pre>
+
 ## References
 
 Assign fixed USB port names to your Raspberry Pi • freva.com
